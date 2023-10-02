@@ -12,7 +12,26 @@ body {
 
 h1,
 h3 {
-    color: var(--color3)
+    color: var(--color3);
+    font-variant: small-caps;
+}
+
+h5 {
+    color: var(--color3);
+    font-style: italic;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.link:hover {
+    color: var(--color2);
 }
 
 #skills {
